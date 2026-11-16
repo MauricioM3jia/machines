@@ -1,0 +1,14 @@
+# Nmap 7.991 scan initiated Sun Nov 15 19:55:47 2026 as: /usr/lib/nmap/nmap -p- --open -sS --min-rate 5000 -Pn -oN tcpScan 192.168.0.122
+Nmap scan report for 192.168.0.122
+Host is up (0.00014s latency).
+Not shown: 65530 filtered tcp ports (no-response)
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+5000/tcp open  upnp
+5357/tcp open  wsdapi
+MAC Address: 08:00:27:69:76:89 (Oracle VirtualBox virtual NIC)
+
+# Nmap done at Sun Nov 15 19:56:27 2026 -- 1 IP address (1 host up) scanned in 40.22 seconds
